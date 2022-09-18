@@ -112,7 +112,12 @@
 ### 2022.09.19
 
 > 1. Continue working on the Shell holes on <a href="#todolist" style="color:#ff6f42;">TODO</a> List.
-> 2. 
+> 2. Shell holes DONE!
+> 3. Edit <i style="color:white">Weapons_DessertEagle</i> icon in Photoshop.
+> 4. Sync Bullet UI Update when it fire and reload.
+> 5. If there's no remainning bullet, the icon will turn red.
+
+> 6. 
 
 
 
@@ -120,17 +125,23 @@
 
 
 ## <a style="color:#ff6f42;" id="todolist">TODO List</a>
-> * ~~Footsteps~~ 
-> * ~~Shooting Audio~~ 
-> * ~~Muzzle flame~~ 
-> * <a style="color:white">Shell holes</a>
-> * <a style="color:white">Sync UI Bullets & Reload</a>
-> * <a style="color:white">Sync UI Crosshair</a>
-> * <a style="color:white">Dry Fire and Reload audio</a>
-> * <a style="color:white">Switching Weapons and adjust UI</a>
 > * <a style="color:white">Gun fire kick</a>
+> * <a style="color:white">Dry Fire and Reload audio</a>
+> * <a style="color:white">Sync UI Crosshair</a>
+> * <a style="color:white">Switching Weapons and adjust UI</a>
+> * ~~Sync UI Bullets & Reload~~ ?? - <a style="color:#ff6f4270">2022.09.19</a>
+> * ~~Shell holes~~ ?? - <a style="color:#ff6f4270">2022.09.19</a>
+> * ~~Muzzle flame~~  ?? - <a style="color:#ff6f4270">2022.09.18</a>
+> * ~~Shooting Audio~~  ?? - <a style="color:#ff6f4270">2022.09.18</a>
+> * ~~Footsteps~~  ?? - <a style="color:#ff6f4270">2022.09.18</a>
+
+
+
+
 
 
 ## <a style="color:#b3ff00;" id="buglist">BUG List</a>
-> * <a style="color:white">Fire Rate Error. Sometimes double click, or still in fire CD but play animations.</a>
-> * <a style="color:white">Bullet can fly through the collider. Return no hit.</a>
+> * <a style="color:white">There's a bug in Reload. It should not fire-able during Reload. And Bullet UI should be updated after the Reload animation.</a> 2022.09.19
+> * <a style="color:white">Bullet can fly through the collider. Return no hit.</a> 2022.09.18
+> * <a style="color:white">Fire Rate Error. Sometimes double click, or still in fire CD but play animations.</a> 2022.09.18
+
