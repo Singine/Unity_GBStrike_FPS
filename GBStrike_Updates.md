@@ -122,7 +122,15 @@
 > 8. When one weapon's bullet went out, the UIs turn red wheather it switches lately.
 > 9. Fix <a style="color:#b3ff00;">BUGs</a> in Weapon Reloading.
 
+------------
 
+### 2022.09.20
+
+> 1. Get pistol audios: Magazine-in, Magazine-out, Bolt.
+> 2. Edit and program the logic of playing audio functions.
+> 3. Match and sync the audio and the reload animations. (<i style="color:white">Weapons_DessertEagle</i> & <i style="color:white">Weapons_AK</i>) 
+
+> 4. 
 
 
 
@@ -130,7 +138,8 @@
 ## <a style="color:#ff6f42;" id="todolist">TODO List</a>
 
 > * <a style="color:white">Gun fire kick</a>
-> * <a style="color:white">Dry Fire and Reload audio</a>
+> * <a style="color:white">Dry Fire</a>
+> * ~~Sync Reload audio~~?? - <a style="color:#ff6f4270">2022.09.20</a>
 > * <a style="color:white">Sync UI Crosshair</a>
 > * ~~Switching Weapons and adjust UI~~ ?? - <a style="color:#ff6f4270">2022.09.19</a>
 > * ~~Sync UI Bullets & Reload~~ ?? - <a style="color:#ff6f4270">2022.09.19</a>
