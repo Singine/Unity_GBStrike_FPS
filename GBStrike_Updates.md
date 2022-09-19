@@ -117,7 +117,10 @@
 > 4. Sync Bullet UI Update when it fire and reload.
 > 5. If there's no remainning bullet, the icon will turn red.
 
-> 6. 
+> 6. Program the logic of switching 2 guns.
+> 7. Change the <a style="color:#75b1ff;">Weapon Cuts UI</a> when the guns switch. And the <a style="color:#75b1ff;">Bullets UI</a> changes at the same time.
+> 8. When one weapon's bullet went out, the UIs turn red wheather it switches lately.
+> 9. Fix <a style="color:#b3ff00;">BUGs</a> in Weapon Reloading.
 
 
 
@@ -125,10 +128,11 @@
 
 
 ## <a style="color:#ff6f42;" id="todolist">TODO List</a>
+
 > * <a style="color:white">Gun fire kick</a>
 > * <a style="color:white">Dry Fire and Reload audio</a>
 > * <a style="color:white">Sync UI Crosshair</a>
-> * <a style="color:white">Switching Weapons and adjust UI</a>
+> * ~~Switching Weapons and adjust UI~~ ?? - <a style="color:#ff6f4270">2022.09.19</a>
 > * ~~Sync UI Bullets & Reload~~ ?? - <a style="color:#ff6f4270">2022.09.19</a>
 > * ~~Shell holes~~ ?? - <a style="color:#ff6f4270">2022.09.19</a>
 > * ~~Muzzle flame~~  ?? - <a style="color:#ff6f4270">2022.09.18</a>
@@ -141,7 +145,12 @@
 
 
 ## <a style="color:#b3ff00;" id="buglist">BUG List</a>
+
+> * ~~Animation Error when DE reloads.Error in 'PlayerSync' Script~~ 2022.09.19 - <a style="color:#b3ff0070">2022.09.19</a>
+> * <a style="color:white">Animation Error when AK47 keeps shooting.</a> 2022.09.19
+> * <a style="color:white">Audio Error when AK47 keeps shooting. (bullets 20-30)</a> 2022.09.19
+> * ~~Once press R, but multiple reloads.~~ 2022.09.19 - <a style="color:#b3ff0070">2022.09.19</a>
 > * <a style="color:white">There's a bug in Reload. It should not fire-able during Reload. And Bullet UI should be updated after the Reload animation.</a> 2022.09.19
-> * <a style="color:white">Bullet can fly through the collider. Return no hit.</a> 2022.09.18
-> * <a style="color:white">Fire Rate Error. Sometimes double click, or still in fire CD but play animations.</a> 2022.09.18
+> * ~~Bullet can fly through the collider. Return no hit.~~ 2022.09.18 - <a style="color:#b3ff0070">2022.09.19</a>
+> * <a style="color:white">DE Fire Error. Sometimes double click, or still in fire CD but play animations.</a> 2022.09.18
 
