@@ -130,17 +130,39 @@
 > 2. Edit and program the logic of playing audio functions.
 > 3. Match and sync the audio and the reload animations. (<i style="color:white">Weapons_DessertEagle</i> & <i style="color:white">Weapons_AK</i>) 
 
-> 4. 
+> 4. Sync the <a style="color:lightgreen">Crosshair</a> when the player's state changes. (Idle, Walking, Running, Jump)
+> 5. Add Dry Fire audio when there's no bullet in the gun.
+> 6. Sync the <a style="color:#75b1ff;">Tips UI</a> when there is no ammo or need reload.
+> 7. Prepare the new map stuffs.
+
+------------
+
+### 2022.09.21
+
+> 1. Make new map: <i style="color:orange">'MazeBamboo'</i>.
+> 2. Design the game mode on this new map: <i style="color:orange">'MazeBamboo'</i>.
+
+> 3. 
+
 
 
 
 
 ## <a style="color:#ff6f42;" id="todolist">TODO List</a>
 
+> * <a style="color:white">Lobby UI: Select game mode. Create / Join the online hostrooms.</a> 2022.09.21
+> * <a style="color:white">Map Bamboo: Add Bamboo Colliders </a> 2022.09.21
+> * <a style="color:white">Map Bamboo: Special Object</a> 2022.09.21
+> * <a style="color:white">Map Bamboo: Tab UI</a> 2022.09.21
+> * <a style="color:white">Map Bamboo: Starter UI</a> 2022.09.21
+> * <a style="color:white">Map Bamboo: Intialize Players Points</a> 2022.09.21
+> * <a style="color:white">Add Crouch mode when 'CTRL' is button down.</a> 2022.09.20
+> * <a style="color:white">Sync Crosshair when got kicks.</a> 2022.09.20
 > * <a style="color:white">Gun fire kick</a>
-> * <a style="color:white">Dry Fire</a>
-> * ~~Sync Reload audio~~?? - <a style="color:#ff6f4270">2022.09.20</a>
-> * <a style="color:white">Sync UI Crosshair</a>
+> * ~~Show UI tips when no ammo or need reload~~ 2022.09.20 - <a style="color:#ff6f4270">2022.09.20</a>
+> * ~~Dry Fire~~ ?? - <a style="color:#ff6f4270">2022.09.20</a>
+> * ~~Sync Reload audio~~ ?? - <a style="color:#ff6f4270">2022.09.20</a>
+> * ~~Sync UI Crosshair~~ ?? - <a style="color:#ff6f4270">2022.09.20</a>
 > * ~~Switching Weapons and adjust UI~~ ?? - <a style="color:#ff6f4270">2022.09.19</a>
 > * ~~Sync UI Bullets & Reload~~ ?? - <a style="color:#ff6f4270">2022.09.19</a>
 > * ~~Shell holes~~ ?? - <a style="color:#ff6f4270">2022.09.19</a>
