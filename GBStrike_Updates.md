@@ -142,14 +142,26 @@
 > 1. Make new map: <i style="color:orange">'MazeBamboo'</i>.
 > 2. Design the game mode on this new map: <i style="color:orange">'MazeBamboo'</i>.
 
-> 3. 
+> 3. Fix current <a style="color:#b3ff00;">BUGs</a>. All clear.
+> 4. Sync Crosshair changes when open fire.
 
+------------
+
+### 2022.09.22
+
+> 1. Design <b style="color:orange">"<u>GBStrike Logo</u>"</b> in Photoshop.
+> 2. Make fire and smoke Effect in Unity.
+
+> 3. Program Gun's fire kick. Done!
+> 4. Fix a little <a style="color:#b3ff00;">BUG</a> which bullets do not destory itself.
 
 
 
 
 ## <a style="color:#ff6f42;" id="todolist">TODO List</a>
 
+> * <a style="color:white">Machineguns switch open fire mode. (Single / Auto) And its UI.</a> 2022.09.21
+> * <a style="color:white">Lobby UI: Starter Scene & Main Lobby.</a> 2022.09.22
 > * <a style="color:white">Lobby UI: Select game mode. Create / Join the online hostrooms.</a> 2022.09.21
 > * <a style="color:white">Map Bamboo: Add Bamboo Colliders </a> 2022.09.21
 > * <a style="color:white">Map Bamboo: Special Object</a> 2022.09.21
@@ -157,8 +169,8 @@
 > * <a style="color:white">Map Bamboo: Starter UI</a> 2022.09.21
 > * <a style="color:white">Map Bamboo: Intialize Players Points</a> 2022.09.21
 > * <a style="color:white">Add Crouch mode when 'CTRL' is button down.</a> 2022.09.20
-> * <a style="color:white">Sync Crosshair when got kicks.</a> 2022.09.20
-> * <a style="color:white">Gun fire kick</a>
+> * ~~Sync Crosshair when got kicks.~~ 2022.09.20 - <a style="color:#ff6f4270">2022.09.21</a>
+> * ~~Gun fire kick~~ ?? - <a style="color:#ff6f4270">2022.09.22</a>
 > * ~~Show UI tips when no ammo or need reload~~ 2022.09.20 - <a style="color:#ff6f4270">2022.09.20</a>
 > * ~~Dry Fire~~ ?? - <a style="color:#ff6f4270">2022.09.20</a>
 > * ~~Sync Reload audio~~ ?? - <a style="color:#ff6f4270">2022.09.20</a>
@@ -177,11 +189,12 @@
 
 ## <a style="color:#b3ff00;" id="buglist">BUG List</a>
 
+> * ~~After bullet shoot out and fly a distance, it didn't destory itself.~~ 2022.09.22 - <a style="color:#b3ff0070">2022.09.22</a>
 > * ~~Animation Error when DE reloads.Error in 'PlayerSync' Script~~ 2022.09.19 - <a style="color:#b3ff0070">2022.09.19</a>
-> * <a style="color:white">Animation Error when AK47 keeps shooting.</a> 2022.09.19
-> * <a style="color:white">Audio Error when AK47 keeps shooting. (bullets 20-30)</a> 2022.09.19
+> * ~~Animation Error when AK47 keeps shooting.~~ 2022.09.19 - <a style="color:#b3ff0070">2022.09.21</a>
+> * ~~Audio Error when AK47 keeps shooting. (bullets 20-30)~~ 2022.09.19 - <a style="color:#b3ff0070">2022.09.21</a>
 > * ~~Once press R, but multiple reloads.~~ 2022.09.19 - <a style="color:#b3ff0070">2022.09.19</a>
-> * <a style="color:white">There's a bug in Reload. It should not fire-able during Reload. And Bullet UI should be updated after the Reload animation.</a> 2022.09.19
+> * <~~There's a bug in Reload. It should not fire-able during Reload. And Bullet UI should be updated after the Reload animation.~~ 2022.09.19 - <a style="color:#b3ff0070">2022.09.21</a>
 > * ~~Bullet can fly through the collider. Return no hit.~~ 2022.09.18 - <a style="color:#b3ff0070">2022.09.19</a>
-> * <a style="color:white">DE Fire Error. Sometimes double click, or still in fire CD but play animations.</a> 2022.09.18
+> * ~~DE Fire Error. Sometimes double click, or still in fire CD but play animations.~~ 2022.09.18 - <a style="color:#b3ff0070">2022.09.21</a>
 
