@@ -155,12 +155,46 @@
 > 3. Program Gun's fire kick. Done!
 > 4. Fix a little <a style="color:#b3ff00;">BUG</a> which bullets do not destory itself.
 
+------------
 
+### 2022.09.23
 
+> 1. Design the forest scene and the foggy enviroment.
+> 2. Set two cameras' position, angle, FOV and priority.
+> 3. Program camera-switch when any button pressed. And the UI fade out.
+
+> 4. Copy the old character models into the scene.
+> 5. Add colliders for each part of the body which can be hit.
+> 6. Test the <a style="color:#fb4949;">Blood Effect</a>. COOL!
+
+------------
+
+### 2022.09.24
+
+> 1. Design Lobby UI.
+> 2. Prepare button, background, border, fonts & etc. in Photoshop.
+> 3. Make a Information Canvas. It can be used in any scene.
+> 4. Program the logic to control the Information Canvas show or hide.
+> 5. Add the interact sound.
+
+> 6. Set the <a style="color:#fb4949;">Blood Effect</a> on Character Prefabs.
+> 7. Program the logic to determine whether Character is hit. If hit, instantiate the <a style="color:#fb4949;">Blood Effect</a> at the position where got hit.
+> 8. Design the damamge calculation.
+
+#### Damage Calculation with armor _temp
+* a. Head damage x4 with armor x0.65 -- armor reduce = real damage x1
+* b. Body damage x1 with armor x0.65 -- armor reduce = real damage x1
+* c. Arm damage x0.65 with armor x0.7 -- armor reduce = real damage x0.65
+* d. Leg damage x0.65 with armor x0.7 -- armor reduce = real damage x0.65
+#### Weapon Damage
+* AK47 -- damage = 35
+* DessertEagle -- damage = 50
 
 ## <a style="color:#ff6f42;" id="todolist">TODO List</a>
 
+> * ~~Blood Effect System instantiate when got hit.~~ 2022.09.23 - <a style="color:#ff6f4270">2022.09.24</a>
 > * <a style="color:white">Machineguns switch open fire mode. (Single / Auto) And its UI.</a> 2022.09.21
+> * ~~Lobby UI: Information Pops.~~ 2022.09.23 - <a style="color:#ff6f4270">2022.09.24</a>
 > * <a style="color:white">Lobby UI: Starter Scene & Main Lobby.</a> 2022.09.22
 > * <a style="color:white">Lobby UI: Select game mode. Create / Join the online hostrooms.</a> 2022.09.21
 > * <a style="color:white">Map Bamboo: Add Bamboo Colliders </a> 2022.09.21
