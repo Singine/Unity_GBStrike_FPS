@@ -190,12 +190,25 @@
 * AK47 -- damage = 35
 * DessertEagle -- damage = 50
 
+------------
+
+### 2022.09.25
+
+> 1. Re-do the Game Logo GBStrike AREA. Add a material mask, make it more textured.
+> 2. Design Buttons Background images in Photoshop.
+> 3. Adjust the camera angle, place a character into the scene with a cautious animation.
+> 4. Program the logic which layer should be shown or fade out.
+
+> 5. 
+
+
+
 ## <a style="color:#ff6f42;" id="todolist">TODO List</a>
 
 > * ~~Blood Effect System instantiate when got hit.~~ 2022.09.23 - <a style="color:#ff6f4270">2022.09.24</a>
 > * <a style="color:white">Machineguns switch open fire mode. (Single / Auto) And its UI.</a> 2022.09.21
 > * ~~Lobby UI: Information Pops.~~ 2022.09.23 - <a style="color:#ff6f4270">2022.09.24</a>
-> * <a style="color:white">Lobby UI: Starter Scene & Main Lobby.</a> 2022.09.22
+> * ~~Lobby UI: Starter Scene & Main Lobby.~~ 2022.09.22 - <a style="color:#ff6f4270">2022.09.25</a>
 > * <a style="color:white">Lobby UI: Select game mode. Create / Join the online hostrooms.</a> 2022.09.21
 > * <a style="color:white">Map Bamboo: Add Bamboo Colliders </a> 2022.09.21
 > * <a style="color:white">Map Bamboo: Special Object</a> 2022.09.21
