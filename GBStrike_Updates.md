@@ -199,12 +199,28 @@
 > 3. Adjust the camera angle, place a character into the scene with a cautious animation.
 > 4. Program the logic which layer should be shown or fade out.
 
-> 5. 
+> 5. Program the logic of Damage System.
+> 6. Fix a little <a style="color:#b3ff00;">BUG</a> that the damage would apply twice.
+> 7. Re-Scale the blood effect size.
+> 8. Add the Bot Information Canvas that can show the health, armor and last hit part.
+
+------------
+
+### 2022.09.26
+
+> 1. Prepare some texture and logo in Photoshop. 
+> 2. Add Canvas: "New Game" UI. 
+> 3. Adjust the UI interface, change the scale mode. Right now, it can fulfill the screen with height or width.
+
+> 4. 
 
 
 
 ## <a style="color:#ff6f42;" id="todolist">TODO List</a>
 
+> * <a style="color:white">Add Bot's animation during its move.</a> 2022.09.26
+> * <a style="color:white">Bot with AI System can move from one place to another.</a> 2022.09.26
+> * <a style="color:white">AI System that can find its own way.</a> 2022.09.26
 > * ~~Blood Effect System instantiate when got hit.~~ 2022.09.23 - <a style="color:#ff6f4270">2022.09.24</a>
 > * <a style="color:white">Machineguns switch open fire mode. (Single / Auto) And its UI.</a> 2022.09.21
 > * ~~Lobby UI: Information Pops.~~ 2022.09.23 - <a style="color:#ff6f4270">2022.09.24</a>
@@ -236,6 +252,7 @@
 
 ## <a style="color:#b3ff00;" id="buglist">BUG List</a>
 
+> * ~~When the bullet hit the Bot, it will trigger twice or more.~~ 2022.09.26 - <a style="color:#b3ff0070">2022.09.26</a>
 > * ~~After bullet shoot out and fly a distance, it didn't destory itself.~~ 2022.09.22 - <a style="color:#b3ff0070">2022.09.22</a>
 > * ~~Animation Error when DE reloads.Error in 'PlayerSync' Script~~ 2022.09.19 - <a style="color:#b3ff0070">2022.09.19</a>
 > * ~~Animation Error when AK47 keeps shooting.~~ 2022.09.19 - <a style="color:#b3ff0070">2022.09.21</a>
