@@ -209,18 +209,29 @@
 ### 2022.09.26
 
 > 1. Prepare some texture and logo in Photoshop. 
-> 2. Add Canvas: "New Game" UI. 
+> 2. Add Canvas: <a style="color:white">"New Game"</a> UI. 
 > 3. Adjust the UI interface, change the scale mode. Right now, it can fulfill the screen with height or width.
 
-> 4. 
+> 4. Learn A* algorithm which is the basic foundation of AI's pathfinding.
+> 5. Make a demo. Click one place and the BOT will find the shortest path.
+> 6. Place the character into the Map <i style="color:orange">'MazeBamboo'</i> and run. But unfortunately got a bad gaming experience. Need to be optimized.
+
+------------
+
+### 2022.09.27
+
+> 1. Fouce on making the UI Canvas <a style="color:white">"New Game"</a>. And almost finished.
+> 2. Design the UI Canvas <a style="color:white">"Create Room"</a>. Will begin next night.
+
+> 3. 
 
 
 
 ## <a style="color:#ff6f42;" id="todolist">TODO List</a>
 
-> * <a style="color:white">Add Bot's animation during its move.</a> 2022.09.26
-> * <a style="color:white">Bot with AI System can move from one place to another.</a> 2022.09.26
-> * <a style="color:white">AI System that can find its own way.</a> 2022.09.26
+> * ~~Add Bot's animation during its move.~~ 2022.09.26 - <a style="color:#ff6f4270">2022.09.26</a>
+> * ~~Bot with AI System can move from one place to another.~~ 2022.09.26 - <a style="color:#ff6f4270">2022.09.26</a>
+> * ~~AI System that can find its own way.~~ 2022.09.26 - <a style="color:#ff6f4270">2022.09.26</a>
 > * ~~Blood Effect System instantiate when got hit.~~ 2022.09.23 - <a style="color:#ff6f4270">2022.09.24</a>
 > * <a style="color:white">Machineguns switch open fire mode. (Single / Auto) And its UI.</a> 2022.09.21
 > * ~~Lobby UI: Information Pops.~~ 2022.09.23 - <a style="color:#ff6f4270">2022.09.24</a>
