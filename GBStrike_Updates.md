@@ -223,8 +223,30 @@
 > 1. Fouce on making the UI Canvas <a style="color:white">"New Game"</a>. And almost finished.
 > 2. Design the UI Canvas <a style="color:white">"Create Room"</a>. Will begin next night.
 
-> 3. 
+> 3. Adjust the sensitivity of X-axis and Y-axis. Adjust the camera's shaking during walking and running. Gain better experience.
+> 4. Apply A* Pathfinding into Map <i style="color:orange">'MazeBamboo'</i>. Add a plane as Ground, and set all the bamboos and fences as Obstacles.
+> 5. Add the collider to all the bamboos, so they can be hit and leave bullet hole. Unfinished.
 
+------------
+
+### 2022.09.28
+
+> 1. Finish adding the collider to all the bamboos. Totally 700+ bamboos.
+> 2. Get a new BIG <a style="color:#b3ff00;">BUG</a>.
+
+> 3. Set a series of points, and let BOT move alone the path points.
+> 4. Program the logic BOT moves with animation.
+> 5. Get a <a style="color:#b3ff00;">BUG</a>. The BOT sometimes turns around in circle.
+
+------------
+
+### 2022.09.29
+
+> 1. Design the UI <a style="color:white">"Create Room"</a>. Prepare the background images.
+> 2. Make the popup canvas.
+> 3. Design another three maps that will come soon.
+
+> 4. 
 
 
 ## <a style="color:#ff6f42;" id="todolist">TODO List</a>
@@ -263,6 +285,8 @@
 
 ## <a style="color:#b3ff00;" id="buglist">BUG List</a>
 
+> * <a style="color:white">The BOT sometimes turns around in circle.</a>
+> * <a style="color:white">In <i style="color:orange">'MazeBamboo'</i>, the bullets will be blocked by 'col_w'.</a>
 > * ~~When the bullet hit the Bot, it will trigger twice or more.~~ 2022.09.26 - <a style="color:#b3ff0070">2022.09.26</a>
 > * ~~After bullet shoot out and fly a distance, it didn't destory itself.~~ 2022.09.22 - <a style="color:#b3ff0070">2022.09.22</a>
 > * ~~Animation Error when DE reloads.Error in 'PlayerSync' Script~~ 2022.09.19 - <a style="color:#b3ff0070">2022.09.19</a>
