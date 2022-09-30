@@ -179,9 +179,9 @@
 
 > 6. Set the <a style="color:#fb4949;">Blood Effect</a> on Character Prefabs.
 > 7. Program the logic to determine whether Character is hit. If hit, instantiate the <a style="color:#fb4949;">Blood Effect</a> at the position where got hit.
-> 8. Design the damamge calculation.
+> 8. Design the damamge Algorithm.
 
-#### Damage Calculation with armor _temp
+#### Damage Algorithm with armor _temp
 * a. Head damage x4 with armor x0.65 -- armor reduce = real damage x1
 * b. Body damage x1 with armor x0.65 -- armor reduce = real damage x1
 * c. Arm damage x0.65 with armor x0.7 -- armor reduce = real damage x0.65
@@ -246,7 +246,35 @@
 > 2. Make the popup canvas.
 > 3. Design another three maps that will come soon.
 
-> 4. 
+> 4. Fix a <a style="color:#b3ff00;">BUG</a> : The BOT sometimes turns around in circle.
+> 5. Remove damage system after Bot died.
+
+------------
+
+### 2022.09.30
+
+> 1. Add the missing buttons.
+> 2. Edit the background pictures in Photoshop.
+> 3. Finish the UI <a style="color:white">"Create New Room"</a>.
+> 4. There are four maps in progress. 
+
+> 5. Program the logic of the Lobby menu. Make it more reasonable.
+> 6. Start making the UI of the Map <i style="color:orange">'MazeBamboo'</i>. Start with the TAB UI.
+
+------------
+
+### 2022.10.01
+
+> 1. Design the UI in Photoshop.
+> 2. Implemente the TAB UI and DONE!
+> 3. Here is the Score Algorithm.
+#### Score Algorithm
+* Total Score = KILL x10 + ASSIST x10
+#### KDA Algorithm
+* KDA = ( KILL + ASSIST ) / DEATH
+
+> 3. 
+
 
 
 ## <a style="color:#ff6f42;" id="todolist">TODO List</a>
@@ -258,10 +286,10 @@
 > * <a style="color:white">Machineguns switch open fire mode. (Single / Auto) And its UI.</a> 2022.09.21
 > * ~~Lobby UI: Information Pops.~~ 2022.09.23 - <a style="color:#ff6f4270">2022.09.24</a>
 > * ~~Lobby UI: Starter Scene & Main Lobby.~~ 2022.09.22 - <a style="color:#ff6f4270">2022.09.25</a>
-> * <a style="color:white">Lobby UI: Select game mode. Create / Join the online hostrooms.</a> 2022.09.21
-> * <a style="color:white">Map Bamboo: Add Bamboo Colliders </a> 2022.09.21
+> * ~~Lobby UI: Select game mode. Create / Join the online hostrooms.~~ 2022.09.21 - <a style="color:#ff6f4270">2022.09.30</a>
+> * ~~Map Bamboo: Add Bamboo Colliders ~~ 2022.09.21 - <a style="color:#ff6f4270">2022.09.29</a>
 > * <a style="color:white">Map Bamboo: Special Object</a> 2022.09.21
-> * <a style="color:white">Map Bamboo: Tab UI</a> 2022.09.21
+> * ~~Map Bamboo: Tab UI~~ 2022.09.21 - <a style="color:#ff6f4270">2022.10.01</a>
 > * <a style="color:white">Map Bamboo: Starter UI</a> 2022.09.21
 > * <a style="color:white">Map Bamboo: Intialize Players Points</a> 2022.09.21
 > * <a style="color:white">Add Crouch mode when 'CTRL' is button down.</a> 2022.09.20
@@ -285,8 +313,8 @@
 
 ## <a style="color:#b3ff00;" id="buglist">BUG List</a>
 
-> * <a style="color:white">The BOT sometimes turns around in circle.</a>
-> * <a style="color:white">In <i style="color:orange">'MazeBamboo'</i>, the bullets will be blocked by 'col_w'.</a>
+> * ~~The BOT sometimes turns around in circle.~~  2022.09.28 - <a style="color:#b3ff0070">2022.09.29</a>
+> * ~~In <i style="color:orange">'MazeBamboo'</i>, the bullets will be blocked by 'col_w'.~~ 2022.09.28 - <a style="color:#b3ff0070">2022.09.29</a>
 > * ~~When the bullet hit the Bot, it will trigger twice or more.~~ 2022.09.26 - <a style="color:#b3ff0070">2022.09.26</a>
 > * ~~After bullet shoot out and fly a distance, it didn't destory itself.~~ 2022.09.22 - <a style="color:#b3ff0070">2022.09.22</a>
 > * ~~Animation Error when DE reloads.Error in 'PlayerSync' Script~~ 2022.09.19 - <a style="color:#b3ff0070">2022.09.19</a>
