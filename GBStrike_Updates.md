@@ -273,7 +273,28 @@
 #### KDA Algorithm
 * KDA = ( KILL + ASSIST ) / DEATH
 
+> 3. Add a HOST logo to mark the room host.
+> 4. Add players' ping, the network delay.
+
+------------
+
+### 2022.10.02
+
+> 1. Design the Host Controller Menu in Photoshop.
+> 2. Make the Menu in Unity as the PS design.
+
+> 3. Program the logic of buttons and the layers. Make a new button logic as my wish.
+> 4. Debug some controlling details, like when the menu shows, player cannot move or shot. And the cursor shows during the menu controlling.
+
+------------
+
+### 2022.10.03
+
+> 1. Add the mouse events like mouseenter, mouseleave and mouseclick.
+> 2. When the SWAP MAP Button clicked, a system information appears. Should confirm to change map.
+
 > 3. 
+
 
 
 
