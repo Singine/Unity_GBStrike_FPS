@@ -293,13 +293,50 @@
 > 1. Add the mouse events like mouseenter, mouseleave and mouseclick.
 > 2. When the SWAP MAP Button clicked, a system information appears. Should confirm to change map.
 
-> 3. 
+> 3. Finish the function to initalize the player and Bot. First of all, the player will be placed. Then, the player can add bots. 
+> 4. The bot will automatically doing the map patrol following the certain points.
 
+------------
+
+### 2022.10.04
+
+> 1. Add a id code in <a style="color:#75b1ff;">Tab UI</a>.
+> 2. All characters will have their own id when it initialized.
+> 3. All bots can be kicked at the same time.
+
+> 4. Optimized the logic of the Bots' map patrol. Now they will randomly choose different point as the next target postion. And the pervious one will be move to the index 0 of the array.
+> 5. Find two <a style="color:#b3ff00;" href="#buglist">BUGs</a>.
+
+------------
+
+### 2022.10.05
+
+> 1. Continue working on the <a style="color:#75b1ff;">Tab UI</a>. The characters' infomation line will be added when initialized, and will be deleted when the character is kicked or exit.
+> 2. And figure out how to update the data in lines.
+
+> 3. Add the bots' footsteps so they can be heard in distance.
+> 4. Work on the logic of detecting and finding enemies. Search some information online and study the method in some other games.
+
+------------
+
+### 2022.10.06
+
+> 1. Try to figure a workable way to detete enemies. Use the sphere collider and the raycast.
+> 2. If the enemy is found, the Bot will stop moving and will play shotting animation.
+> 3. Fix the animation switching error.
+
+> 4. Further the <a style="color:#ff6f42;" href="#todolist"> TODO List </a>.
+> 5. Finish the Bot Found & Lose Enemy cycle. The bot will chase the target for a while and will move to the lastest position the enemy is found. Then continue map patrol.
 
 
 
 ## <a style="color:#ff6f42;" id="todolist">TODO List</a>
 
+> * <a style="color:white">The characters should reborn in 5s after death.</a> 2022.10.06
+> * <a style="color:white">The bot will shot bullets and make damage.</a> 2022.10.06
+> * <a style="color:white">The bot's firing audio and flame.</a> 2022.10.06
+> * <a style="color:white">The Tab ScoreBoard update data.</a> 2022.10.06
+> * <a style="color:white">When the HOST Controller closed, the expended columns should be reset.</a> 2022.10.04
 > * ~~Add Bot's animation during its move.~~ 2022.09.26 - <a style="color:#ff6f4270">2022.09.26</a>
 > * ~~Bot with AI System can move from one place to another.~~ 2022.09.26 - <a style="color:#ff6f4270">2022.09.26</a>
 > * ~~AI System that can find its own way.~~ 2022.09.26 - <a style="color:#ff6f4270">2022.09.26</a>
@@ -334,6 +371,8 @@
 
 ## <a style="color:#b3ff00;" id="buglist">BUG List</a>
 
+> * <a style="color:white">Sometimes can shot during reload.</a> 2022.10.04
+> * <a style="color:white">Sometimes cannot switch aim and idle during shotting.</a> 2022.10.04
 > * ~~The BOT sometimes turns around in circle.~~  2022.09.28 - <a style="color:#b3ff0070">2022.09.29</a>
 > * ~~In <i style="color:orange">'MazeBamboo'</i>, the bullets will be blocked by 'col_w'.~~ 2022.09.28 - <a style="color:#b3ff0070">2022.09.29</a>
 > * ~~When the bullet hit the Bot, it will trigger twice or more.~~ 2022.09.26 - <a style="color:#b3ff0070">2022.09.26</a>
