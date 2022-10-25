@@ -269,7 +269,7 @@
 > 2. Implemente the TAB UI and DONE!
 > 3. Here is the Score Algorithm.
 #### Score Algorithm
-* Total Score = KILL x10 + ASSIST x10
+* Total Score = KILL x10 + ASSIST x5
 #### KDA Algorithm
 * KDA = ( KILL + ASSIST ) / DEATH
 
@@ -328,6 +328,124 @@
 > 4. Further the <a style="color:#ff6f42;" href="#todolist"> TODO List </a>.
 > 5. Finish the Bot Found & Lose Enemy cycle. The bot will chase the target for a while and will move to the lastest position the enemy is found. Then continue map patrol.
 
+------------
+
+### 2022.10.07
+
+> 1. The bot can be killed and will automatically reborn in random place.
+> 2. The health and armor will be reset to full state when the bot is reborned.
+
+> 3. Find <a style="color:#b3ff00;" href="#buglist">BUG</a>. After reborning, the bot will sometimes go through walls.
+> 4. Add a fade-out effect, the body will dissolve and disappear in 5 seconds after death.
+
+------------
+
+### 2022.10.08
+
+> 1. Remake and clean up the collider area of the map. Rescan the bot's pathfinding. Fix the BUG.
+> 2. Program the code to get the damage origin. And the score can be calculated.
+> 3. Store a list of bots' name. When the bot is set, it will automatically assigned a unique name.
+> 4. Fix a <a style="color:#b3ff00;" href="#buglist">BUG</a> that the program will loop endlessly.
+
+------------
+
+### 2022.10.09
+
+> 1. Improve the scene UI. 
+> 2. The total score will shown on the TAB plane.
+> 3. Add a score progress bar that grows with the score.
+
+> 4. Add bots' shooting animation when enemy is detected and the muzzle flame effect of the gunshot.
+> 5. Add the bullet fired by bots and it can hit the collider and make damage.
+> 6. Add the blood effect.
+
+------------
+
+### 2022.10.10
+
+> 1. Put the bot in map <i style="color:orange">'MazeBamboo'</i>. When enemy is found, the bot will open fire automatically.
+> 2. Adjust the shooting parameters of the bot to make the shooting distribution more dispersed.
+> 3. Re-format KDA calculation, and leave two decimal places.
+> 4. Program the health UI and Armor UI.
+
+> 5. Plan to program the bots attacking each other but failed.
+> 6. Find a <a style="color:#b3ff00;" href="#buglist">BUG</a> that the bot keeps shooting after killing the enemy.
+
+------------
+
+### 2022.10.11
+
+> 1. Start to make the initialization UI of the map <i style="color:orange">'MazeBamboo'</i>.
+
+> 2. Program the code to initialize an avatar to replace the player after death, which makes it more reasonable.
+> 3. And the main camera will switch to a bird's-eye view.
+
+------------
+
+### 2022.10.12
+
+> 1. Continue to make the initialization UI of the map <i style="color:orange">'MazeBamboo'</i>.
+> 2. Characters can be selected and when the cursor goes through the select arae, the character will play a ready animation.
+
+> 3. Make the effect of player's getting hurt.
+> 4. Program the logic to calculate the angle that the damage comes from and show the certain effect.
+
+------------
+
+### 2022.10.13
+
+> 1. Make the effect of player's low health state in PS.
+> 2. Program the logic to show the low health effect and the scene color will become black and white.
+> 3. It will return to normal color after reborn.
+
+> 4. Make a hit icon in PS.
+> 5. Program the logic that the hit icon will shown in the middle when the bullets hit the enemy and make damage.
+
+------------
+
+### 2022.10.14 
+
+> 1. Add a player state tips on the top-middle of the UI.
+> 2. It will display the state of the current players' death, alive or no-player.
+
+> 3. Fix a <a style="color:#b3ff00;" href="#buglist">BUG</a> that when the game exported, the materials will go wrong. The transparent background image will turn black.
+
+------------
+
+### 2022.10.15 
+
+> 1. Add the killing Tips on the Top-Right corner of the UI. The information contains the origin of the kill,the weapon used, headshoot or not, and the dead player.
+> 2. The current players state line will change in the same time.
+
+> 3. Add another killing tips that can be seen by player self with a rising animation. 
+
+------------
+
+### 2022.10.16
+
+> 1. Process the audios of player's death and get hit.
+> 2. Add a chatbox into the UI.
+
+> 3. Program the logic of the chatbox and it will chage the transparent value.
+
+------------
+
+### 2022.10.17
+
+> 1. Add a ESC UI. If the button 'ESC' is down, the UI will slide in from the left.
+> 2. Program the logic to show the background of the ESC UI.
+> 3. Program the logic of the button to exit room and back to the lobby. 
+
+------------
+
+### 2022.10.18
+
+> 1. 
+
+
+
+
+
 
 
 ## <a style="color:#ff6f42;" id="todolist">TODO List</a>
@@ -371,6 +489,10 @@
 
 ## <a style="color:#b3ff00;" id="buglist">BUG List</a>
 
+> * ~~when the game exported, the materials will go wrong. The transparent background image will turn black.~~ 2022.10.14 - <a style="color:#b3ff0070">2022.10.14</a>
+> * ~~The bot keeps shooting after killing the enemy.~~ 2022.10.10 - <a style="color:#b3ff0070">2022.10.10</a>
+> * ~~The program will loop endlessly.~~ 2022.10.08 - <a style="color:#b3ff0070">2022.10.08</a>
+> * ~~After reborning, the bot will sometimes go through walls.~~ 2022.10.07 - <a style="color:#b3ff0070">2022.10.08</a>
 > * <a style="color:white">Sometimes can shot during reload.</a> 2022.10.04
 > * <a style="color:white">Sometimes cannot switch aim and idle during shotting.</a> 2022.10.04
 > * ~~The BOT sometimes turns around in circle.~~  2022.09.28 - <a style="color:#b3ff0070">2022.09.29</a>
